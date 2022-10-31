@@ -5,7 +5,7 @@ conda_env: conda.yaml
 entry_points:
     main:
         parameters:
-            epochs: {type: int, default:10}
-            lr: {type: float, default:0.03}
+            epochs: {type: int, default: 10}
+            lr: {type: float, default: 0.03}
         command: "python train.py {epochs} {lr}"
             
