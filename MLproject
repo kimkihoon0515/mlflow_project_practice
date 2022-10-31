@@ -7,5 +7,5 @@ entry_points:
         parameters:
             epochs: {type: int, default: 10}
             lr: {type: float, default: 0.03}
-        command: "python train.py {epochs} {lr}"
+        command: "python train.py --epochs {epochs} --lr {lr}"
             
