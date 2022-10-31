@@ -9,4 +9,5 @@ dependencies:
   - ipython==8.5.0
   - torch==1.13.0
   - tqdm==4.63.0
+  - torchvision
 name: mlflow-env
