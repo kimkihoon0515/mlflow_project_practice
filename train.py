@@ -10,6 +10,7 @@ import mlflow # mlflow 사용을 위해
 import torch.backends.cudnn as cudnn
 import random
 import argparse
+import os
 
 
 class Net(nn.Module):
@@ -55,7 +56,7 @@ cudnn.benchmark = False
 cudnn.deterministic = True
 random.seed(seed)
 
-def train(args):
+def train(args,MLFLOW_TRACKING_URI):
 
   model = Net()
   model.zero_grad()
@@ -70,7 +71,8 @@ def train(args):
     mlflow.create_experiment(name=experiment_name)
   experiment = mlflow.get_experiment_by_name(experiment_name)
 
-  mlflow.set_tracking_uri('http://127.0.0.1:5000') # 로컬 서버에 실행을 기록하기 위해 함수 호출
+
+  mlflow.set_tracking_uri(MLFLOW_TRACKING_URI) # 로컬 서버에 실행을 기록하기 위해 함수 호출
   mlflow.set_experiment(experiment_name) # 실험 
   #mlflow.set_tag("mlflow.runName","practice")
 
@@ -162,4 +164,5 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     print(args)
+    MLFLOW_TRACKING_URI = os.environ['MLFLOW_TRACKING_URI'] = 'http://127.0.0.1:5000'
     train(args)
