@@ -1,3 +1,7 @@
 *.db
 artifacts
 model_mlflow
+best_model.pt
+conda.yaml
+MLproject
+model.pt
