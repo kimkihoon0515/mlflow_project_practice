@@ -1,0 +1,47 @@
+[
+	{
+		"creation_timestamp": 1668684965813,
+		"current_stage": "None",
+		"description": "",
+		"last_updated_timestamp": 1668693396124,
+		"name": "basic_model",
+		"run_id": "8fb2c50bb98746ed9707f3bb43aab234",
+		"run_link": "",
+		"source": "/Users/gimgihun/mlflow_project_practice/artifacts/1/8fb2c50bb98746ed9707f3bb43aab234/artifacts/best_model",
+		"status": "READY",
+		"status_message": "",
+		"tags": {},
+		"user_id": "",
+		"version": "1"
+	},
+	{
+		"creation_timestamp": 1668685007333,
+		"current_stage": "None",
+		"description": "",
+		"last_updated_timestamp": 1668693404586,
+		"name": "basic_model",
+		"run_id": "009bcfbda0c844ea97e2b6d141d3dabb",
+		"run_link": "",
+		"source": "/Users/gimgihun/mlflow_project_practice/artifacts/1/009bcfbda0c844ea97e2b6d141d3dabb/artifacts/best_model",
+		"status": "READY",
+		"status_message": "",
+		"tags": {},
+		"user_id": "",
+		"version": "2"
+	},
+	{
+		"creation_timestamp": 1668686242730,
+		"current_stage": "None",
+		"description": "",
+		"last_updated_timestamp": 1668693412631,
+		"name": "basic_model",
+		"run_id": "325b157b904d4173b109625253cec6e4",
+		"run_link": "",
+		"source": "/Users/gimgihun/mlflow_project_practice/artifacts/1/325b157b904d4173b109625253cec6e4/artifacts/best_model",
+		"status": "READY",
+		"status_message": "",
+		"tags": {},
+		"user_id": "",
+		"version": "3"
+	}
+]

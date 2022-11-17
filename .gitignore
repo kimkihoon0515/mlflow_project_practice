@@ -5,3 +5,4 @@ best_model.pt
 conda.yaml
 MLproject
 model.pt
+mlruns
