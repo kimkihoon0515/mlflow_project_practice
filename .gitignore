@@ -6,3 +6,4 @@ conda.yaml
 MLproject
 model.pt
 mlruns
+model_output.json
