@@ -43,5 +43,20 @@
 		"tags": {},
 		"user_id": "",
 		"version": "3"
+	},
+	{
+		"creation_timestamp": 1668767596986,
+		"current_stage": "None",
+		"description": "",
+		"last_updated_timestamp": 1668767596986,
+		"name": "basic_model",
+		"run_id": "fdfb7dcb8a484e5594b79afd4a53dc1e",
+		"run_link": "",
+		"source": "/Users/gimgihun/mlflow_project_practice/artifacts/1/fdfb7dcb8a484e5594b79afd4a53dc1e/artifacts/best_model",
+		"status": "READY",
+		"status_message": "",
+		"tags": {},
+		"user_id": "",
+		"version": "4"
 	}
 ]

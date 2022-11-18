@@ -7,3 +7,4 @@ MLproject
 model.pt
 mlruns
 model_output.json
+fastapi
