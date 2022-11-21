@@ -106,7 +106,7 @@
 	},
 	{
 		"creation_timestamp": 1668836173710,
-		"current_stage": "None",
+		"current_stage": "Archived",
 		"description": "",
 		"last_updated_timestamp": 1668836173710,
 		"name": "basic_model",
@@ -153,7 +153,7 @@
 		"creation_timestamp": 1668836794768,
 		"current_stage": "None",
 		"description": "",
-		"last_updated_timestamp": 1668836794768,
+		"last_updated_timestamp": 1668871061675,
 		"name": "basic_model",
 		"run_id": "f2540733727347058886bc1149ea60e9",
 		"run_link": "",
@@ -168,7 +168,7 @@
 		"creation_timestamp": 1668869572777,
 		"current_stage": "None",
 		"description": "",
-		"last_updated_timestamp": 1668869572777,
+		"last_updated_timestamp": 1668870137073,
 		"name": "basic_model",
 		"run_id": "ee2149ecdb2940d583e126f4783e2ee8",
 		"run_link": "",
@@ -178,5 +178,20 @@
 		"tags": {},
 		"user_id": "",
 		"version": "12"
+	},
+	{
+		"creation_timestamp": 1669034784271,
+		"current_stage": "None",
+		"description": "",
+		"last_updated_timestamp": 1669034784271,
+		"name": "basic_model",
+		"run_id": "5608fced254f4ffe91deee6bb18e34f4",
+		"run_link": "",
+		"source": "/Users/gimgihun/mlflow_project_practice/artifacts/1/5608fced254f4ffe91deee6bb18e34f4/artifacts/best_model",
+		"status": "READY",
+		"status_message": "",
+		"tags": {},
+		"user_id": "",
+		"version": "13"
 	}
 ]
